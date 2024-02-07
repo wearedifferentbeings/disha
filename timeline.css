@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: pink;
+    background-image: linear-gradient(to left,pink,#FF007F);
+}
+.page1_headingdivision{
+   margin-top: 25vh;
+   justify-content: center;
+   display: flex;
+}
+.page1_heading{
+    
+    text-align: center;
+}
+.page1_button{
+    justify-content: center;
+    margin-top: 10vh;
+    display: flex;
+    
+}
+.page1_button button{
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    border: 2px solid red;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    transition: width 3s, height 3s, border-radius 5s;
+    color: pink;
+    font-size: larger;
+    font-weight: bolder;
+}
+.page1_button button:hover{
+    background-image: url('timeline.jpg');
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 400px;
+    color: pink;
+    background-repeat: no-repeat;
+    font-size: larger;
+    font-weight: bolder;
+   
+}

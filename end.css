@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(to left,pink,#FF007F);
+}
+button{
+    position: relative;
+    background-color:  rgb(254, 76, 105);
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    border-radius: 20px;
+    opacity: 0.5;
+    transition: width 5s;
+}
+button:hover{
+    opacity: 1;
+    width: 1300px;
+}
+.finder{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.finder button{
+    margin: 10px;
+}

@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    font-size: 20px; /* Set your desired font size */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust overlay background color and opacity */
+    padding: 10px;
+    border-radius: 5px;
+    /*transition: opacity 0.3s ease-in-out;*/
+    transition: width 2s;
+}
+
+.image-container:hover img {
+    
+    width: 40vw;
+}
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+}

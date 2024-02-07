@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left,pink,#FF007F);
+}
+.surprise{
+    justify-content: center;
+   display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 35vh;
+    font-size: 80px;
+}
+button{
+    position: relative;
+    background-color:  rgb(254, 76, 105);
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 1;
+}
+.finder{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.finder button{
+    margin: 10px;
+}
+.question{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

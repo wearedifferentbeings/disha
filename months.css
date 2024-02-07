@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ff008089;
+}
+.months{
+    display: flex;
+    margin-top: 10vh;
+}
+.months_oct{
+    margin-left: 50px;
+}
+.months_nov{
+    margin-left: 50px;
+}
+.months_dec{
+    margin-left: 50px;
+}
+.months_jan{
+    margin-left: 50px;
+}
+.months_feb{
+    margin-left: 50px;
+    padding-right: 50px;
+}
+img{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    width: 20vw;
+    opacity: 0.8;
+    transition: width 1s, border-radius 2s;
+}
+img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    width: 26vw;
+    border-radius: 130px;
+}
+.months_text{
+    position: relative;
+    bottom: 8%;
+    text-align: center;
+    background-color: rgb(255,255,255,0.5);
+    padding: 11px;
+    border-radius: 4px;
+}
+img:hover, div.months_text{
+    bottom: 23%;
+}
+.months a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    position: relative;
+    background-color:  rgb(254, 76, 105);
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 1;
+}
+.finder{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    margin-left: 45vw;
+}
+.finder button{
+    margin: 10px;
+}

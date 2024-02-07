@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ff008089;
+}
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 15vw;
+    transition: width 1.5s, border-radius 10s;
+    border-radius: 10px;
+}
+.overlay {
+    position: fixed;
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px; /* Set your desired font size */
+    color: black;
+    background-color: rgb(255, 255, 255, 0.7); /* Adjust overlay background color and opacity */
+    padding: 10px;
+    border-radius: 5px;
+    transition: width 2s;
+    width: 50vw;
+    text-align: center;
+}
+.dec_1:hover .overlay {
+    opacity: 1;
+}
+.dec_9:hover .overlay {
+    opacity: 1;
+} 
+.dec_10:hover .overlay {
+    opacity: 1;
+} 
+.dec_13:hover .overlay {
+    opacity: 1;
+} 
+.dec_15:hover .overlay{
+    opacity: 1;
+}
+.dec_17:hover .overlay {
+    opacity: 1;
+} 
+.dec_18:hover .overlay {
+    opacity: 1;
+} 
+.dec_19:hover .overlay {
+    opacity: 1;
+} 
+.dec_20:hover .overlay {
+    opacity: 1;
+} 
+.dec_21:hover .overlay {
+    opacity: 1;
+} 
+.dec_25:hover .overlay {
+    opacity: 1;
+} 
+img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    width: 27vw;
+    opacity: 0.7;
+    border-radius: 400px;
+}
+.dec_text{
+    position: relative;
+    text-align: center;
+    background-color: rgb(255,255,255,0.5);
+    padding: 11px;
+    border-radius: 4px;
+}
+.dec_timeline{
+    display: flex;
+    margin-top: 11vh;
+    /*margin-left: 5vw;*/
+}
+.dec_1{
+    margin-left: 5vw;
+}
+.dec_9{
+    margin-left: 5vw;
+}
+.dec_10{
+    margin-left: 5vw;
+}
+.dec_13{
+    margin-left: 5vw;
+}
+.dec_15{
+    margin-left: 5vw;
+}
+.dec_17{
+    margin-left: 5vw;
+}
+.dec_18{
+    margin-left: 5vw;
+}
+.dec_19{
+    margin-left: 5vw;
+}
+.dec_20{
+    margin-left: 5vw;
+}
+.dec_21{
+    margin-left: 5vw;
+}
+.dec_25{
+    margin-left: 5vw;
+    padding-right: 5vw;
+}
+button{
+    position: relative;
+    background-color:  rgb(254, 76, 105);
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 1;
+}
+.finder{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    margin-left: 35vw;
+}
+.finder button{
+    margin: 10px;
+}
